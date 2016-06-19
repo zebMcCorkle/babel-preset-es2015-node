@@ -1,11 +1,17 @@
 {
-  "name": "babel-preset-es2015-node",
+  "name": "babel-preset-es2015-node-rollup",
   "version": "6.1.0",
-  "description": "Babel preset for all es2015 plugins needed with latest stable node.",
-  "author": "Ryan Tsao <ryan.j.tsao@gmail.com>",
+  "description": "Babel preset for all es2015 plugins needed with latest stable node and rollup.",
+  "author": "Zebulon McCorkle <zebmccorkle@gmail.com>",
+  "contributors": [
+    {
+      "name": "Ryan Tsao",
+      "email": "ryan.j.tsao@gmail.com"
+    }
+  ]
   "homepage": "https://babeljs.io/",
   "license": "MIT",
-  "repository": "https://github.com/rtsao/babel-preset-es2015-node",
+  "repository": "https://github.com/zebMcCorkle/babel-preset-es2015-node-rollup",
   "main": "index.js",
   "engines": {
     "node": ">= 4.0.0"
@@ -13,7 +19,7 @@
   "dependencies": {
     "babel-plugin-transform-es2015-destructuring": "6.x",
     "babel-plugin-transform-es2015-function-name": "6.x",
-    "babel-plugin-transform-es2015-modules-commonjs": "6.x",
+    "babel-plugin-external-helpers": "6.x",
     "babel-plugin-transform-es2015-parameters": "6.x",
     "babel-plugin-transform-es2015-shorthand-properties": "6.x",
     "babel-plugin-transform-es2015-spread": "6.x",
