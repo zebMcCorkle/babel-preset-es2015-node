@@ -1,7 +1,7 @@
 var semver = require("semver");
 
 var pluginsList = [
-  require("babel-plugin-transform-es2015-modules-commonjs")
+  require("babel-plugin-external-helpers")
 ];
 
 if (semver.lt(process.version, '6.0.0')) {
